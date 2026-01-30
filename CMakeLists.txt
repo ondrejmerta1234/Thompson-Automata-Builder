@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.30)
-project(progtest)
+project(Thompson-Automata-Builder)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(progtest main.cpp
+add_executable(${PROJECT_NAME} main.cpp
         sample.h)
